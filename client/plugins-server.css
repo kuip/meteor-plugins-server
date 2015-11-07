@@ -1,0 +1,23 @@
+#content{
+  max-width: 98%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.plugins_avatar {
+  width: 60px;
+}
+
+.plugins_title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.plugins_title_div {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.table-responsive {
+  overflow: hidden;
+}
