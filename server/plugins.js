@@ -81,9 +81,9 @@ Meteor.methods({
 
 Meteor.startup(function() {
   if(!PluginsServer.persist.Plugins.findOne()) {
-    var keys = Object.keys(PluginsServer.choices)
-    for(k in keys) {
-      PluginsServer.persist.Plugins.insert(PluginsServer.choices[keys[k]])
+    var choices = PluginsServer.choices
+    for(k in choices) {
+      PluginsServer.persist.Plugins.insert(choices[k])
     }
   }
 

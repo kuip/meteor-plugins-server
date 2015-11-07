@@ -1,3 +1,8 @@
+#loginButtons {
+  position: absolute;
+  right: 15px;
+}
+
 #content{
   max-width: 98%;
   margin: auto;
@@ -20,4 +25,16 @@
 
 .table-responsive {
   overflow: hidden;
+}
+
+.table {
+  width: 100% !important;
+}
+
+.plugins_api {
+  opacity: 0.6;
+}
+
+.plugins_api:hover {
+  opacity: 1;
 }

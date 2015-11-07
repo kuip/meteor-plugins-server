@@ -20,3 +20,5 @@ mrt:moment
 twbs:bootstrap
 loredanacirstea:meteor-tabular-filter
 cfs:http-methods
+accounts-ui
+accounts-password

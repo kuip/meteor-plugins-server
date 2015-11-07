@@ -3,6 +3,9 @@
 </head>
 
 <body>
+    <div id="loginButtons">
+        {{> loginButtons align="right"}}
+    </div>
     <div class="plugins_title_div">
         <a href="https://github.com/oro8oro/meteor-plugins-server" target="_blank">
           <img class="plugins_avatar" src="/images/logo.svg">
@@ -22,5 +25,5 @@
     </div>
 
     <br><br>
-    <a href="{{url}}" target="_blank">API ({{no}})</a>
+    <a class="plugins_api" href="{{url}}" target="_blank"><img class="plugins_avatar" src="/images/plugins-logo.svg"></a>({{no}})
 </template>
